@@ -11,7 +11,7 @@ class Entity(pygame.sprite.Sprite):
         super().__init__()
         self.keyListener = keyListener
         self.screen = screen
-        self.spritesheet = pygame.image.load("assets/sprite/hero_01_red_m_walk.png")  # Load the sprite sheet
+        self.spritesheet = pygame.image.load("./assets/sprite/hero_01_red_m_walk.png")  # Load the sprite sheet
         self.image = Tool.split_image(self.spritesheet, 0, 0, 30, 32)  # Extract the initial sprite image
         self.position: pygame.math.Vector2 = pygame.math.Vector2(x + 16, y)  # Set the initial position
         self.rect: pygame.Rect = self.image.get_rect()  # Define the entity's rectangle

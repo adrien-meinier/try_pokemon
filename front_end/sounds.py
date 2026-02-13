@@ -6,14 +6,14 @@ class Sounds:
         pygame.mixer.init()
 
         # Load the music files (MP3 format)
-        self.opening_music = "assets/sounds/Introduction.mp3"  # Path to your MP3 file
-        self.background_music = "assets/sounds/Astoria.mp3"  # Path to your MP3 file
-        self.map_music = "assets/sounds/Centre Pokémon.mp3"  # Path to your map music file
-        self.combat_music = "assets/sounds/combat.mp3"  # Path to your combat music file
-        self.maison_music = "assets/sounds/Harmonia.mp3"  # Path to your combat music file
-        self.pokeshop_music = "assets/sounds/pokeshop.mp3"#Path to pokeshop file
-        self.pokecenter_music = "assets/sounds/Route 1.mp3"
-        self.labo_music = "assets/sounds/Route 2.mp3"
+        self.opening_music = "./assets/sounds/Introduction.mp3"  # Path to your MP3 file
+        self.background_music = "./assets/sounds/Astoria.mp3"  # Path to your MP3 file
+        self.map_music = "./assets/sounds/Centre Pokémon.mp3"  # Path to your map music file
+        self.combat_music = "./assets/sounds/combat.mp3"  # Path to your combat music file
+        self.maison_music = "./assets/sounds/Harmonia.mp3"  # Path to your combat music file
+        self.pokeshop_music = "./assets/sounds/pokeshop.mp3"#Path to pokeshop file
+        self.pokecenter_music = "./assets/sounds/Route 1.mp3"
+        self.labo_music = "./assets/sounds/Route 2.mp3"
 
         # Initialize audio channels
         self.music_channel = pygame.mixer.Channel(0)  # Dedicated channel for music

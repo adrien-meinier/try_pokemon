@@ -10,7 +10,7 @@ class Screen:
         self.framerate = 144
         self.deltatime = 0 # refresh screen window
         self.caption = pygame.display.set_caption("Pokémon")
-        self.screen = pygame.display.set_icon(pygame.image.load("assets/logo/pokeball.jpg"))
+        self.screen = pygame.display.set_icon(pygame.image.load("./assets/logo/pokeball.jpg"))
 
     def update(self):
         pygame.display.flip()

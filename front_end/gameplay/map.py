@@ -28,7 +28,7 @@ class Map:
 
        
     def switch_map(self, switch: Switch):
-        self.tmx_data = pytmx.load_pygame(f"assets/map/{switch.name}.tmx")
+        self.tmx_data = pytmx.load_pygame(f"./assets/map/{switch.name}.tmx")
         map_data = pyscroll.data.TiledMapData(self.tmx_data)
         self.map_layer = pyscroll.BufferedRenderer(map_data, self.screen.get_size())
         self.group = pyscroll.PyscrollGroup(map_layer=self.map_layer, default_layer=7)

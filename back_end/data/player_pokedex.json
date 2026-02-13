@@ -9,20 +9,20 @@
                 "name": "Sandslash",
                 "original_name": "Sandshrew",
                 "pet_name": "Jean-Marie",
-                "hp_max": 470,
-                "hp": 470,
-                "xp": 8133,
-                "strength": 432,
-                "defense": 401,
+                "hp_max": 476,
+                "hp": 476,
+                "xp": 8469,
+                "strength": 438,
+                "defense": 408,
                 "type": [
                     "ground"
                 ],
                 "level": 21,
-                "speed": 447,
+                "speed": 453,
                 "stage": 2,
                 "ev": {
                     "hp": 3,
-                    "strength": 3,
+                    "strength": 0,
                     "defense": 3,
                     "speed": 1,
                     "xp": 2
@@ -603,23 +603,23 @@
                 "name": "Shellder",
                 "original_name": "Shellder",
                 "pet_name": "Jean-Vincent",
-                "hp_max": 147,
-                "hp": 145,
-                "xp": 1059,
-                "strength": 164,
-                "defense": 129,
+                "hp_max": 152,
+                "hp": 152,
+                "xp": 1188,
+                "strength": 169,
+                "defense": 133,
                 "type": [
                     "water"
                 ],
                 "level": 11,
-                "speed": 151,
+                "speed": 155,
                 "stage": 1,
                 "ev": {
                     "hp": 1,
-                    "strength": 1,
-                    "defense": 1,
-                    "speed": 1,
-                    "xp": 0
+                    "strength": 2,
+                    "defense": 3,
+                    "speed": 0,
+                    "xp": 3
                 },
                 "state": "domesticated"
             },
@@ -1784,6 +1784,38 @@
                     "defense": 4,
                     "speed": 1,
                     "xp": 1
+                },
+                "state": "domesticated"
+            }
+        }
+    },
+    "oui": {
+        "bag": {
+            "potions": 10,
+            "pokeball": 15
+        },
+        "pokemons": {
+            "Jean-Joseph 1740524070.677541": {
+                "name": "Machop",
+                "original_name": "Machop",
+                "pet_name": "Jean-Joseph 1740524070.677541",
+                "hp_max": 34,
+                "hp": 34,
+                "xp": 166,
+                "strength": 21,
+                "defense": 29,
+                "type": [
+                    "fighting"
+                ],
+                "level": 5,
+                "speed": 37,
+                "stage": 1,
+                "ev": {
+                    "hp": 0,
+                    "strength": 0,
+                    "defense": 0,
+                    "speed": 0,
+                    "xp": 0
                 },
                 "state": "domesticated"
             }

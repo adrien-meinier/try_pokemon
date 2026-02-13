@@ -858,7 +858,7 @@
     <point/>
    </object>
   </objectgroup>
-  <objectgroup id="30" name="battlepokemon" visible="0">
+  <objectgroup id="30" name="battlepokemon">
    <object id="708" name="collisionpokemon" x="471.75" y="803.75" width="13.5" height="13"/>
    <object id="709" name="collisionpokemon" x="488.75" y="803.5" width="13.25" height="13"/>
    <object id="710" name="collisionpokemon" x="504.75" y="803.5" width="13.25" height="13"/>
